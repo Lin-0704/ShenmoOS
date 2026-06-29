@@ -1,3 +1,3 @@
 package com.shenmo.os
 
-class MainActivity
+class MainActivity : android.app.Activity()
