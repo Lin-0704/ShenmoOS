@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShenmoOS</string>
+    <string name="starter_title">ShenmoOS</string>
+    <string name="starter_subtitle">Native starter is online.</string>
+</resources>
