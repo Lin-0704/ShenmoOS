@@ -1,7 +1,8 @@
-name: Test
+name: Build
 on: workflow_dispatch
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ok
+      - uses: actions/checkout@v4
+      - run: ls
