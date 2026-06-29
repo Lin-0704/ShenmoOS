@@ -45,6 +45,24 @@
             android:text="Focus" />
 
         <Button
+            android:id="@+id/voiceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voice" />
+
+        <Button
+            android:id="@+id/toolsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tools" />
+
+        <Button
+            android:id="@+id/healthButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health" />
+
+        <Button
             android:id="@+id/settingsButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
