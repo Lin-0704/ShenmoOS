@@ -11,11 +11,13 @@ class MainActivity : android.app.Activity() {
         val focus = findViewById<android.widget.Button>(com.shenmo.os.R.id.focusButton)
         val voice = findViewById<android.widget.Button>(com.shenmo.os.R.id.voiceButton)
         val tools = findViewById<android.widget.Button>(com.shenmo.os.R.id.toolsButton)
+        val health = findViewById<android.widget.Button>(com.shenmo.os.R.id.healthButton)
 
         chat.setOnClickListener { status.text = "Chat module selected." }
         bills.setOnClickListener { status.text = "Bills module selected." }
         focus.setOnClickListener { status.text = "Focus module selected." }
         voice.setOnClickListener { status.text = "Voice module selected." }
         tools.setOnClickListener { status.text = "Tools module selected." }
+        health.setOnClickListener { status.text = "Health module selected." }
     }
 }
