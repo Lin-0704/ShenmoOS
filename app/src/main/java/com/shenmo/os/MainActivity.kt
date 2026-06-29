@@ -7,8 +7,11 @@ class MainActivity : android.app.Activity() {
 
         val status = findViewById<android.widget.TextView>(com.shenmo.os.R.id.statusText)
         val chat = findViewById<android.widget.Button>(com.shenmo.os.R.id.chatButton)
-        chat.setOnClickListener {
-            status.text = "Chat module selected."
-        }
+        val bills = findViewById<android.widget.Button>(com.shenmo.os.R.id.billsButton)
+        val focus = findViewById<android.widget.Button>(com.shenmo.os.R.id.focusButton)
+
+        chat.setOnClickListener { status.text = "Chat module selected." }
+        bills.setOnClickListener { status.text = "Bills module selected." }
+        focus.setOnClickListener { status.text = "Focus module selected." }
     }
 }
