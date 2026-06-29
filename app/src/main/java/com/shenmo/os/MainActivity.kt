@@ -12,6 +12,7 @@ class MainActivity : android.app.Activity() {
         val voice = findViewById<android.widget.Button>(com.shenmo.os.R.id.voiceButton)
         val tools = findViewById<android.widget.Button>(com.shenmo.os.R.id.toolsButton)
         val health = findViewById<android.widget.Button>(com.shenmo.os.R.id.healthButton)
+        val settings = findViewById<android.widget.Button>(com.shenmo.os.R.id.settingsButton)
 
         chat.setOnClickListener { status.text = "Chat module selected." }
         bills.setOnClickListener { status.text = "Bills module selected." }
@@ -19,5 +20,6 @@ class MainActivity : android.app.Activity() {
         voice.setOnClickListener { status.text = "Voice module selected." }
         tools.setOnClickListener { status.text = "Tools module selected." }
         health.setOnClickListener { status.text = "Health module selected." }
+        settings.setOnClickListener { status.text = "Settings module selected." }
     }
 }
